@@ -55,7 +55,7 @@ function start() {
                         }
                         console.log("Purchase Successful.");
                         console.log("Total Purchase: " + total);
-                        start()
+                        start();
                     });
                 }
             });
