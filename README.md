@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## bamazon
+MYSQL Homework
 
-You can use the [editor on GitHub](https://github.com/tarahform/bamazon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Step 1
+![Step 1](./screenshots/1.png)
+Created a database using MySQL workbench which contained a table with 10 books in my "amazon book store". 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Step 2
+![Step 2](./screenshots/2.png)
+In the terminal you can see that I list my table from my database and prompt the user with 2 questions.
+The database will be updated only if my "store" has what the user wants in stock. 
+The total of their purchase also displays if the purchase is successful.
 
-### Markdown
+### Examples
+If purchase is not successful due to lack in stock:
+![Unsuccsessful Purchase](./screenshots/unsuccsessful.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tarahform/bamazon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If purchase is successful in VSC and MySQL:
+![Succsessful Purchase1](./screenshots/before.png)
+![Succsessful Purchase2](./screenshots/vscbefore.png)
+![Succsessful Purchase3](./screenshots/mysqlafter.png)

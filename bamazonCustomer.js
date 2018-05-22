@@ -44,7 +44,7 @@ function start() {
                 }
                 if (response.quantity > data[0].stock_quantity) {
                     console.log("Insufficient quantity!");
-                    start
+                    start();
                 } else {
                     var newStock = data[0].stock_quantity - response.quantity;
                     var total = (data[0].price * response.quantity).toFixed(2);
